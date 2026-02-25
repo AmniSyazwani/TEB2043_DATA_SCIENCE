@@ -15,3 +15,6 @@ new_phone <- paste0(first3, "****", last4)
 # Display result
 cat("Name:", new_name, "\n")
 cat("Phone:", new_phone, "\n")
+
+# Display message
+cat("Hi,", new_name, ". A verification code has been sent to", new_phone, "\n")
